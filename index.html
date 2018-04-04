@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Welcome to Mathias' web page!</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-<body>
-	<table border="1">
-		<thead>
-			<a href = "index.htm" target = "_blank">Home</a>
-			<td>Interests</td>
-			<td>Lattice QCD</td>
-			<td>Master thesis</td>
-			<td>Projects</td>
-			<td>About</td>
-		</thead>
-		<tbody>
-			<tr>
-				<div id="welcomebox">
-					<p>Welcome!</p>
+	<head>
+		<title>Welcome to Mathias' web page!</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
 
-					<p>I am a theoretical physicist currently on my last year of a masters degree in Lattice Quantum Chromodynamics(LQCD). In my degree I have built a program from scratch for generating and flowing field configuration adhering to Yang-Mills theory. TALK ABOUT ANALYSIS AS WELL</p>
+	<body>
+		<nav>
+			<a href = "index.html" target = "_self">Home</a>
+			<a href = "docs/interests.html" target = "_self">Interests</a>
+			<a href = "docs/latticeqcd.html" target = "_self">Lattice QCD</a>
+			<a href = "docs/mastersthesis.html" target = "_self">Master thesis</a>
+			<a href = "docs/projects.html" target = "_self">Projects</a>
+			<a href = "docs/about.html" target = "_self">About</a>
+		</nav>
 
-					<p>This page is currently <em>under construction</em>.</p>
-				</div>
-			</tr>
-			<tr>
-				<p>The action density of the gluon field in a cube of size 2.22 fermi.</p>
-				<img src="/img/energy_iso_surface_t800.gif" alt="Action density" title="Action density" />
-			</tr>
-		</tbody>
-		<tfoot>
-			<tr>
+		<div id="welcomeheader">
+			<p>Welcome!</p>
+		</div>
 
-			</tr>
-		</tfoot>
-	</table>
-</body>
+		<div id="welcometext">
+			<p>I am a theoretical physicist currently on my last year of a masters degree in Lattice Quantum Chromodynamics(LQCD). In my degree I have built a program from scratch for generating and flowing field configuration adhering to Yang-Mills theory.</p>
+			<p>This page is currently <em>under construction</em>.</p>
+		</div>
+
+		<div id="gluongif">
+			<p>The action density of the gluon field in a cube of size 2.22 fermi.</p>
+			<img src="img/energy_iso_surface_t800.gif" alt="Action density" title="Action density" height="30%" width="30%"/>
+		</div>
+
+	</body>
 </html>
 

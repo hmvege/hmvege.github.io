@@ -1,0 +1,13 @@
+body {
+	font-family: futura;
+	background-color: #CCCCCC;
+}
+
+nav {
+	border-radius: 20px;
+	border: 2px solid #4B4B4B;
+	background: #6d6d6d;
+	padding: 20px;
+	width: 500px;
+	height: 100px;
+}
